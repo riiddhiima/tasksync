@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TaskSync — Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>⚡ TaskSync</h2>
+    <div>
+      <span id="welcome-msg"></span>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </nav>
+
+  <div class="dashboard">
+    <div class="task-form card">
+      <h3>New Task</h3>
+      <input type="text" id="task-title" placeholder="Task title *">
+      <textarea id="task-desc" placeholder="Description (optional)"></textarea>
+      <select id="task-priority">
+        <option value="low">🟢 Low</option>
+        <option value="medium" selected>🟡 Medium</option>
+        <option value="high">🔴 High</option>
+      </select>
+      <input type="datetime-local" id="task-deadline">
+      <button onclick="createTask()">Add Task</button>
+    </div>
+
+    <div class="task-list">
+      <h3>Your Tasks</h3>
+      <div class="filter-bar">
+        <button onclick="filterTasks('all')" class="active">All</button>
+        <button onclick="filterTasks('pending')">Pending</button>
+        <button onclick="filterTasks('done')">Done</button>
+      </div>
+      <div id="tasks-container"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
