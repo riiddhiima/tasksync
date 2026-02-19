@@ -140,7 +140,7 @@ To use this feature, generate a **Gmail App Password** from your Google account 
 
 ## 🚀 Deployment
 
-- **Backend** hosted on [Render](https://render.com) as a Web Service
+- **Backend** hosted on [Koyeb](https://koyeb.com) as a Web Service
 - **Database** hosted on [Railway](https://railway.app) (MySQL)
 - **Frontend** hosted on [Netlify](https://netlify.com) via drag-and-drop deploy
 
