@@ -1,4 +1,4 @@
-const API = 'http://127.0.0.1:5000/api';  // Change this to your deployed URL later
+const API = 'https://planned-lilly-riddhima-66db14f3.koyeb.app/api';  // Change this to your deployed URL later
 
 // ---- AUTH ----
 
