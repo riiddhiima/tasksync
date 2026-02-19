@@ -8,8 +8,9 @@ A full-stack web application for managing tasks with deadline tracking, priority
 
 ## 🚀 Live Demo
 
-🌐 **Frontend:** [tasksync.netlify.app](https://tasksync.netlify.app) ← *(update this after deploy)*  
-🔗 **Backend API:** [tasksync-api.onrender.com](https://tasksync-api.onrender.com) ← *(update this after deploy)*
+🌐 **Frontend:** [tasksync.netlify.app](https://amazing-sable-ecf7f9.netlify.app/)
+
+🔗 **Backend API:** [tasksync-api.onrender.com](https://planned-lilly-riddhima-66db14f3.koyeb.app/)
 
 ---
 
