@@ -148,7 +148,7 @@ To use this feature, generate a **Gmail App Password** from your Google account 
 
 ## 🙋 Author
 
-**Your Name**  
+**Riddhima Singh**  
 [LinkedIn](https://www.linkedin.com/in/riddhima-singh-b848bb2a7/) • [GitHub](https://github.com/riiddhiima)
 
 ---
