@@ -3,8 +3,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import create_access_token
 from app import db
 from app.models import User
-from flask import current_app
-from app.reminders import send_reminders
 
 auth_bp = Blueprint('auth', __name__)
 
@@ -30,8 +28,3 @@ def login():
 
     token = create_access_token(identity=str(user.id))
     return jsonify({'token': token, 'username': user.username}), 200
-
-@auth_bp.route('/test-reminder', methods=['GET'])
-def test_reminder():
-    send_reminders(current_app._get_current_object())
-    return jsonify({'message': 'Reminder job ran'}), 200
